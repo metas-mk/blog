@@ -4,13 +4,11 @@ import { fetchPosts } from '../actions';
 
 class PostList extends React.Component {
   componentDidMount() {
-    console.log(this.props.fetchPosts());
-
     this.props.fetchPosts();
   }
 
   render() {
-    return <div>Post List!!!</div>;
+    return <div>Post List</div>;
   }
 }
 
